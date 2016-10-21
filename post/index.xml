@@ -17,6 +17,25 @@
           <author></author>
           <guid>https://devtest2600.github.io/bookshelf/post/good-to-great/</guid>
           <description>&lt;p&gt;I read &lt;strong&gt;Good to Great in January 2016&lt;/strong&gt;. An awesome read sharing detailed analysis on how good companies became great.&lt;/p&gt;
+
+&lt;p&gt;{ {&lt;highlight c&gt;} }&lt;/p&gt;
+
+&lt;p&gt;#include &lt;stdio.h&gt;
+var bar = &amp;ldquo;bar&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;int
+main(int argc, char *argv[])
+{
+    int i = argc;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;printf(&amp;quot;Hello, mate #%d\n&amp;quot;, i);
+
+return 0;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;}&lt;/p&gt;
+
+&lt;p&gt;{ {&lt;/highlight&gt;} }&lt;/p&gt;
 </description>
         </item>
       

@@ -1,39 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>devtest2600&#39;s Blog</title>
+    <title>devtest2600&#39;s Blog </title>
     <link>https://devtest2600.github.io/bookshelf/index.xml</link>
-    <description>Recent content on devtest2600&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Oct 2016 12:22:41 +0300</lastBuildDate>
-    <atom:link href="https://devtest2600.github.io/bookshelf/index.xml" rel="self" type="application/rss+xml" />
+    <author></author>
+    <rights>(C) 2016</rights>
+    <updated>2016-10-21 10:53:01 &#43;0300 MSK</updated>
+
     
-    <item>
-      <title>good to great</title>
-      <link>https://devtest2600.github.io/bookshelf/post/good-to-great/</link>
-      <pubDate>Thu, 20 Oct 2016 12:22:41 +0300</pubDate>
       
-      <guid>https://devtest2600.github.io/bookshelf/post/good-to-great/</guid>
-      <description>&lt;p&gt;I read &lt;strong&gt;Good to Great in January 2016&lt;/strong&gt;. An awesome read sharing detailed analysis on how good companies became great.&lt;/p&gt;
+        <item>
+          <title>testing_tags</title>
+          <link>https://devtest2600.github.io/bookshelf/post/testing_tags/</link>
+          <pubDate>Fri, 21 Oct 2016 10:53:01 MSK</pubDate>
+          <author></author>
+          <guid>https://devtest2600.github.io/bookshelf/post/testing_tags/</guid>
+          <description>&lt;p&gt;Just testing tags.&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>good to great</title>
+          <link>https://devtest2600.github.io/bookshelf/post/good-to-great/</link>
+          <pubDate>Thu, 20 Oct 2016 12:22:41 MSK</pubDate>
+          <author></author>
+          <guid>https://devtest2600.github.io/bookshelf/post/good-to-great/</guid>
+          <description>&lt;p&gt;I read &lt;strong&gt;Good to Great in January 2016&lt;/strong&gt;. An awesome read sharing detailed analysis on how good companies became great.&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #75715e&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color: #75715e&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #000000&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #000080&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color: #000080&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;
 
-&lt;span style=&#34;color: #f8f8f2&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;bar&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;bar&amp;quot;&lt;/span&gt;
+&lt;span style=&#34;color: #cccccc&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color: #cccccc&#34;&gt;bar&lt;/span&gt; &lt;span style=&#34;color: #3399cc&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #cd0000&#34;&gt;&amp;quot;bar&amp;quot;&lt;/span&gt;
 
-&lt;span style=&#34;color: #66d9ef&#34;&gt;int&lt;/span&gt;
-&lt;span style=&#34;color: #f8f8f2&#34;&gt;main(&lt;/span&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;argc,&lt;/span&gt; &lt;span style=&#34;color: #66d9ef&#34;&gt;char&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;argv[])&lt;/span&gt;
-&lt;span style=&#34;color: #f8f8f2&#34;&gt;{&lt;/span&gt;
-	&lt;span style=&#34;color: #66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;i&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;argc;&lt;/span&gt;
+&lt;span style=&#34;color: #00cd00&#34;&gt;int&lt;/span&gt;
+&lt;span style=&#34;color: #cccccc&#34;&gt;main(&lt;/span&gt;&lt;span style=&#34;color: #00cd00&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color: #cccccc&#34;&gt;argc,&lt;/span&gt; &lt;span style=&#34;color: #00cd00&#34;&gt;char&lt;/span&gt; &lt;span style=&#34;color: #3399cc&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color: #cccccc&#34;&gt;argv[])&lt;/span&gt;
+&lt;span style=&#34;color: #cccccc&#34;&gt;{&lt;/span&gt;
+	&lt;span style=&#34;color: #00cd00&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color: #cccccc&#34;&gt;i&lt;/span&gt; &lt;span style=&#34;color: #3399cc&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #cccccc&#34;&gt;argc;&lt;/span&gt;
 
-	&lt;span style=&#34;color: #f8f8f2&#34;&gt;printf(&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;Hello, mate #%d&lt;/span&gt;&lt;span style=&#34;color: #ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;i);&lt;/span&gt;
+	&lt;span style=&#34;color: #cccccc&#34;&gt;printf(&lt;/span&gt;&lt;span style=&#34;color: #cd0000&#34;&gt;&amp;quot;Hello, mate #%d\n&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #cccccc&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color: #cccccc&#34;&gt;i);&lt;/span&gt;
 
-	&lt;span style=&#34;color: #66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color: #ae81ff&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;;&lt;/span&gt;
-&lt;span style=&#34;color: #f8f8f2&#34;&gt;}&lt;/span&gt;
+	&lt;span style=&#34;color: #cdcd00&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color: #cd00cd&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color: #cccccc&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color: #cccccc&#34;&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

@@ -11,7 +11,7 @@
 <link rel="apple-touch-icon" href="https://devtest2600.github.io/bookshelf/images/logo.png">
 
 
-<link rel="canonical" href="https://devtest2600.github.io/bookshelf/post/testing_tables/">
+<link rel="canonical" href="https://devtest2600.github.io/bookshelf/post/testing_tables_2/">
 
 
     
@@ -20,13 +20,13 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
-    <title>Testing asciidoc table processing - devtest2600&#39;s Blog</title>
+    <title>Testing asciidoc table processing. Part 2 - devtest2600&#39;s Blog</title>
     
 <meta name="description" content="Untitled  /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */ /* Remove comment around @import statement below when using as a custom stylesheet */ /*@import &#34;https://fonts.googleapis.com/css?family=Open&#43;Sans:300,300italic,400,400italic,600,600italic%7CNoto&#43;Serif:400,400italic,700,700italic%7CDroid&#43;Sans&#43;Mono:400,700&#34;;*/ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block} audio,canvas,video{display:inline-block} audio:not([controls]){display:none;height:0} [hidden],template{display:none} script{display:none!important} html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%} body{margin:0} a{background:transparent} a:focus{outline:thin dotted} a:active,a:hover{outline:0} h1{font-size:2em;margin:.67em 0} abbr[title]{border-bottom:1px dotted} b,strong{font-weight:bold} dfn{font-style:italic} hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0} mark{background:#ff0;color:#000} code,kbd,pre,samp{font-family:monospace;font-size:1em} pre{white-space:pre-wrap} q{quotes:&#34;\201C&#34; &#34;\201D&#34; &#34;\2018&#34; &#34;\2019&#34;} small{font-size:80%} sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline} sup{top:-.5em} sub{bottom:-.25em} img{border:0} svg:not(:root){overflow:hidden} figure{margin:0} fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em} legend{border:0;padding:0} button,input,select,textarea{font-family:inherit;font-size:100%;margin:0} button,input{line-height:normal} button,select{text-transform:none} button,html input[type=&#34;">
 
-<meta property="og:title" content="Testing asciidoc table processing - devtest2600&#39;s Blog">
+<meta property="og:title" content="Testing asciidoc table processing. Part 2 - devtest2600&#39;s Blog">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://devtest2600.github.io/bookshelf/post/testing_tables/">
+<meta property="og:url" content="https://devtest2600.github.io/bookshelf/post/testing_tables_2/">
 <meta property="og:image" content="https://devtest2600.github.io/bookshelf/images/default.png">
 <meta property="og:site_name" content="devtest2600&#39;s Blog">
 <meta property="og:description" content="Untitled  /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */ /* Remove comment around @import statement below when using as a custom stylesheet */ /*@import &#34;https://fonts.googleapis.com/css?family=Open&#43;Sans:300,300italic,400,400italic,600,600italic%7CNoto&#43;Serif:400,400italic,700,700italic%7CDroid&#43;Sans&#43;Mono:400,700&#34;;*/ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block} audio,canvas,video{display:inline-block} audio:not([controls]){display:none;height:0} [hidden],template{display:none} script{display:none!important} html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%} body{margin:0} a{background:transparent} a:focus{outline:thin dotted} a:active,a:hover{outline:0} h1{font-size:2em;margin:.67em 0} abbr[title]{border-bottom:1px dotted} b,strong{font-weight:bold} dfn{font-style:italic} hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0} mark{background:#ff0;color:#000} code,kbd,pre,samp{font-family:monospace;font-size:1em} pre{white-space:pre-wrap} q{quotes:&#34;\201C&#34; &#34;\201D&#34; &#34;\2018&#34; &#34;\2019&#34;} small{font-size:80%} sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline} sup{top:-.5em} sub{bottom:-.25em} img{border:0} svg:not(:root){overflow:hidden} figure{margin:0} fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em} legend{border:0;padding:0} button,input,select,textarea{font-family:inherit;font-size:100%;margin:0} button,input{line-height:normal} button,select{text-transform:none} button,html input[type=&#34;">
@@ -34,8 +34,8 @@
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="devtest2600&#39;s Blog">
-<meta name="twitter:url" content="https://devtest2600.github.io/bookshelf/post/testing_tables/">
-<meta name="twitter:title" content="Testing asciidoc table processing - devtest2600&#39;s Blog">
+<meta name="twitter:url" content="https://devtest2600.github.io/bookshelf/post/testing_tables_2/">
+<meta name="twitter:title" content="Testing asciidoc table processing. Part 2 - devtest2600&#39;s Blog">
 <meta name="twitter:description" content="Untitled  /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */ /* Remove comment around @import statement below when using as a custom stylesheet */ /*@import &#34;https://fonts.googleapis.com/css?family=Open&#43;Sans:300,300italic,400,400italic,600,600italic%7CNoto&#43;Serif:400,400italic,700,700italic%7CDroid&#43;Sans&#43;Mono:400,700&#34;;*/ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block} audio,canvas,video{display:inline-block} audio:not([controls]){display:none;height:0} [hidden],template{display:none} script{display:none!important} html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%} body{margin:0} a{background:transparent} a:focus{outline:thin dotted} a:active,a:hover{outline:0} h1{font-size:2em;margin:.67em 0} abbr[title]{border-bottom:1px dotted} b,strong{font-weight:bold} dfn{font-style:italic} hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0} mark{background:#ff0;color:#000} code,kbd,pre,samp{font-family:monospace;font-size:1em} pre{white-space:pre-wrap} q{quotes:&#34;\201C&#34; &#34;\201D&#34; &#34;\2018&#34; &#34;\2019&#34;} small{font-size:80%} sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline} sup{top:-.5em} sub{bottom:-.25em} img{border:0} svg:not(:root){overflow:hidden} figure{margin:0} fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em} legend{border:0;padding:0} button,input,select,textarea{font-family:inherit;font-size:100%;margin:0} button,input{line-height:normal} button,select{text-transform:none} button,html input[type=&#34;">
 <meta name="twitter:image" content="https://devtest2600.github.io/bookshelf/images/default.png">
 
@@ -48,15 +48,15 @@
       "@type": "WebPage",
       "@id":"https:\/\/devtest2600.github.io\/bookshelf\/"
     },
-    "headline": "Testing asciidoc table processing - devtest2600\x27s Blog",
+    "headline": "Testing asciidoc table processing. Part 2 - devtest2600\x27s Blog",
     "image": {
       "@type": "ImageObject",
       "url": "https:\/\/devtest2600.github.io\/bookshelf\/images\/default.png",
       "height": 800,
       "width": 800
     },
-    "datePublished": "2016-11-02T16:13:38JST",
-    "dateModified": "2016-11-02T16:13:38JST",
+    "datePublished": "2016-11-03T10:20:23JST",
+    "dateModified": "2016-11-03T10:20:23JST",
     "author": {
       "@type": "Person",
       "name": "devtest2600\x27s Blog"
@@ -108,18 +108,18 @@
         
         <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://devtest2600.github.io/bookshelf/post/" itemprop="url"><span itemprop="title">post</span></a></li>
         
-        <li class="active">Testing asciidoc table processing</li>
+        <li class="active">Testing asciidoc table processing. Part 2</li>
       </ol>
     </nav>
 
     <article class="single">
 
-  <a href="https://devtest2600.github.io/bookshelf/post/testing_tables/" class="thumb"></a>
+  <a href="https://devtest2600.github.io/bookshelf/post/testing_tables_2/" class="thumb"></a>
   <div class="content-inner">
-    <h1 class="title">Testing asciidoc table processing</h1>
+    <h1 class="title">Testing asciidoc table processing. Part 2</h1>
 
     <ul class="p-facts">
-      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-11-02T16:13:38JST">Nov 2, 2016</time></li>
+      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-11-03T10:20:23JST">Nov 3, 2016</time></li>
       <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://devtest2600.github.io/bookshelf/post/">post</a></li>
       
     </ul>
@@ -378,7 +378,7 @@ table.pyhltable .linenodiv{background:none!important;padding-right:0!important}
 .quoteblock.abstract blockquote:before,.quoteblock.abstract blockquote p:first-of-type:before{display:none}
 table.tableblock{max-width:100%;border-collapse:separate}
 table.tableblock td>.paragraph:last-child p>p:last-child,table.tableblock th>p:last-child,table.tableblock td>p:last-child{margin-bottom:0}
-table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
+table.tableblock,th.tableblock,td.tableblock{border:1px solid black}
 table.grid-all th.tableblock,table.grid-all td.tableblock{border-width:0 1px 1px 0}
 table.grid-all tfoot>tr>th.tableblock,table.grid-all tfoot>tr>td.tableblock{border-width:1px 1px 0 0}
 table.grid-cols th.tableblock,table.grid-cols td.tableblock{border-width:0 1px 0 0}
@@ -547,6 +547,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 </div>
 <div id="content">
+<div class="paragraph">
+<p>Table generated by asciidoctor:</p>
+</div>
 <table class="tableblock frame-all grid-all" style="width: 15%;">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -571,129 +574,35 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </tr>
 </tbody>
 </table>
-<table class="tableblock frame-topbot grid-all" style="width: 50%;">
-<caption class="title">Table 1. An example table</caption>
+<div class="paragraph">
+<p>Table generated by asciidoctor and explicitly modified:</p>
+
+<p>
+-table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
++table.tableblock,th.tableblock,td.tableblock{border:1px solid black}
+</p>
+</div>
+<table class="tableblock frame-all grid-all" style="width: 15%;">
 <colgroup>
 <col style="width: 33.3333%;">
 <col style="width: 33.3333%;">
 <col style="width: 33.3334%;">
 </colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-right valign-top"></th>
-<th class="tableblock halign-center valign-top" colspan="2">Columns 2 and 3</th>
-</tr>
-</thead>
-<tfoot>
-<tr>
-<td class="tableblock halign-right valign-top"><p class="tableblock"><strong>footer 1</strong></p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><code>footer 2</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><em>footer 3</em></p></td>
-</tr>
-</tfoot>
 <tbody>
 <tr>
-<td class="tableblock halign-right valign-top"><p class="tableblock"><strong>1</strong></p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><code>Item 1</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Item 1</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-right valign-top"><p class="tableblock"><strong>2</strong></p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><code>Item 2</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Item 2</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">B</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-right valign-top"><p class="tableblock"><strong>3</strong></p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><code>Item 3</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Item 3</em></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-right valign-top"><p class="tableblock"><strong>4</strong></p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><code>Item 4</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Item 4</em></p></td>
-</tr>
-</tbody>
-</table>
-<table class="tableblock frame-all grid-all" style="width: 80%;">
-<caption class="title">Table 2. Windtrainer workouts</caption>
-<colgroup>
-<col style="width: 17.647%;">
-<col style="width: 11.7647%;">
-<col style="width: 11.7647%;">
-<col style="width: 58.8236%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Date</th>
-<th class="tableblock halign-center valign-top">Duration</th>
-<th class="tableblock halign-center valign-top">Avg HR</th>
-<th class="tableblock halign-left valign-top">Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">22-Aug-08</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">10:24</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">157</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Worked out MSHR (max sustainable heart rate) by going hard
-for this interval.</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">22-Aug-08</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">23:03</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">152</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Back-to-back with previous interval.</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">24-Aug-08</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">40:00</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">145</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Moderately hard interspersed with 3x 3min intervals (2min
-		hard + 1min really hard taking the HR up to 160).</p></td>
-</tr>
-</tbody>
-</table>
-<table class="tableblock frame-all grid-all spread">
-<colgroup>
-<col style="width: 50%;">
-<col style="width: 50%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">plain</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">plain</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top" style="background-color: red;"><p class="tableblock">RED</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">plain</p></td>
-</tr>
-</tbody>
-</table>
-<table class="tableblock frame-all grid-all" style="width: 25%;">
-<colgroup>
-<col style="width: 25%;">
-<col style="width: 25%;">
-<col style="width: 25%;">
-<col style="width: 25%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><em>1</em></p></td>
-<td class="tableblock halign-right valign-top"><p class="tableblock"><strong>2</strong></p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">3</p></td>
-<td class="tableblock halign-right valign-top"><p class="tableblock"><strong>4</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><em>5</em></p></td>
-<td class="tableblock halign-center valign-middle" colspan="2" rowspan="2"><p class="tableblock"><code>6</code></p></td>
-<td class="tableblock halign-left valign-bottom" rowspan="3"><p class="tableblock"><code>7</code></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><em>8</em></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><em>9</em></p></td>
-<td class="tableblock halign-right valign-top" colspan="2"><p class="tableblock"><code>10</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">C</p></td>
 </tr>
 </tbody>
 </table>
@@ -713,11 +622,11 @@ Last updated 2016-11-03 10:20:55 MSK
 
       <aside class="p-share">
   <div class="share-inner">
-    <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fdevtest2600.github.io%2fbookshelf%2fpost%2ftesting_tables%2f&title=Testing%20asciidoc%20table%20processing" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow"></a>
-    <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fdevtest2600.github.io%2fbookshelf%2fpost%2ftesting_tables%2f&t=Testing%20asciidoc%20table%20processing" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"></a>
-    <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fdevtest2600.github.io%2fbookshelf%2fpost%2ftesting_tables%2f&text=Testing%20asciidoc%20table%20processing&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"></a>
-    <a href="https://plus.google.com/share?url=https%3a%2f%2fdevtest2600.github.io%2fbookshelf%2fpost%2ftesting_tables%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"></a>
-    <a href="http://line.me/R/msg/text/?Testing%20asciidoc%20table%20processing https%3a%2f%2fdevtest2600.github.io%2fbookshelf%2fpost%2ftesting_tables%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow"></a>
+    <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fdevtest2600.github.io%2fbookshelf%2fpost%2ftesting_tables_2%2f&title=Testing%20asciidoc%20table%20processing.%20Part%202" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow"></a>
+    <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fdevtest2600.github.io%2fbookshelf%2fpost%2ftesting_tables_2%2f&t=Testing%20asciidoc%20table%20processing.%20Part%202" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"></a>
+    <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fdevtest2600.github.io%2fbookshelf%2fpost%2ftesting_tables_2%2f&text=Testing%20asciidoc%20table%20processing.%20Part%202&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"></a>
+    <a href="https://plus.google.com/share?url=https%3a%2f%2fdevtest2600.github.io%2fbookshelf%2fpost%2ftesting_tables_2%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"></a>
+    <a href="http://line.me/R/msg/text/?Testing%20asciidoc%20table%20processing.%20Part%202 https%3a%2f%2fdevtest2600.github.io%2fbookshelf%2fpost%2ftesting_tables_2%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow"></a>
   </div>
 </aside>
 
@@ -728,7 +637,7 @@ Last updated 2016-11-03 10:20:55 MSK
           
           <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://devtest2600.github.io/bookshelf/post/" itemprop="url"><span itemprop="title">post</span></a></li>
           
-          <li class="active">Testing asciidoc table processing</li>
+          <li class="active">Testing asciidoc table processing. Part 2</li>
         </ol>
       </nav>
 
@@ -764,9 +673,9 @@ Last updated 2016-11-03 10:20:55 MSK
     <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'devtest2600';
-    var disqus_identifier = 'https:\/\/devtest2600.github.io\/bookshelf\/post\/testing_tables\/';
-    var disqus_title = 'Testing asciidoc table processing';
-    var disqus_url = 'https:\/\/devtest2600.github.io\/bookshelf\/post\/testing_tables\/';
+    var disqus_identifier = 'https:\/\/devtest2600.github.io\/bookshelf\/post\/testing_tables_2\/';
+    var disqus_title = 'Testing asciidoc table processing. Part 2';
+    var disqus_url = 'https:\/\/devtest2600.github.io\/bookshelf\/post\/testing_tables_2\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
